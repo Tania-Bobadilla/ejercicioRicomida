@@ -11,8 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"> 
     <!-- font lobster -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
      <!-- css local  -->
     <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Ricomida</title>
@@ -21,10 +21,10 @@
 <body>
 
   <!-- Navegador -->
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
 
     <div class="container-fluid">
-      <a class="navbar-brand text-light" href="#">Ricomida</a>
+      <a class="navbar-brand" href="#">Ricomida</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -49,31 +49,39 @@
   </nav>
   
   <!-- Tarjeta de receta principal (pizza) -->
-  <div class="card mx-auto mt-5" style="width: 18rem;">
+  
+  <section class="recetaPrincipal">
+     <div>
+      <div>
+        <div class="card mx-auto mt-5 border-start-0 border-end-0" style="width: 18rem;">
 
-    <img src="./assets/img/principal.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h5>
-    </div>
+          <img src="./assets/img/principal.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h3 class="card-title">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h3>
+          </div>
+      
+        </div>
 
-  </div>
+      </div>
+     </div>
+  </section>
 
   <!-- Seccion de receta principal -->
   <section>
 
     <!-- Tiempo de coccion y botones de compartir antes de receta -->
-    <div>
-      <h6>110 MIN / 6 A 8 PORCIONES</h6>
-      <div>
-        <button>Enviar por correo</button>
-        <button>Añadir a favoritos</button>
+    <div class="my-4">
+      <h5 class="text-center mb-4">110 MIN / 6 A 8 PORCIONES</h5>
+      <div class="mx-auto" style="width: 18rem;">
+        <button class="btn btn-outline-secondary">Enviar por correo</button>
+        <button class="btn btn-outline-secondary">Añadir a favoritos</button>
       </div>
     </div>
 
     <!-- Ingredientes (parrafo) -->
-    <div>
+    <div class="mx-auto" style="width: 18rem;">
       <h6>INGREDIENTES</h6>
-      <ul>
+      <ul class="ps-0">
         <li>MASA</li>
         <li>20 gr de levadura seca instantánea</li>
         <li>1 cucharadita de azúcar</li>
@@ -85,7 +93,7 @@
         <li>625 gr harina</li>
       </ul>
 
-      <ul>
+      <ul class="ps-0">
         <li>SALSA</li>
         <li>5 cucharadas de aceite de oliva</li>
         <li>½ cebolla picada en cubos finos</li>
@@ -96,7 +104,7 @@
         <li>2 cucharaditas de azúcar </li>
       </ul>
 
-      <ul>
+      <ul class="ps-0">
         <li>RELLENO</li>
         <li>½ cebolla, en cubos</li>
         <li>500 gr hojas de espinacas picadas</li>
@@ -175,11 +183,11 @@
   </section>
   
   <!-- Footer -->
-   <footer>
+  <footer>
 
     <h1>Ricomida</h1>
 
-   </footer>
+  </footer>
 
 
   <!-- bootstrap js -->  

@@ -1,7 +1,27 @@
+/* fuentes */
+section{
+    font-family: 'Cabin';
+}
+
 /* colores nav */
 
 nav{
     background-color: #373A3C;
 }
+
+.recetaPrincipal{
+    color: #373A3C;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+/* .recetaPrincipal{
+    color: #373A3C;
+} */
+
 
 
