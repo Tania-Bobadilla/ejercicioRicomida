@@ -3,6 +3,10 @@ section{
     font-family: 'Cabin';
 }
 
+.ricomidaFont{
+    font-family: 'Lobster' !important;
+}
+
 /* colores nav */
 
 nav{
@@ -13,11 +17,25 @@ nav{
     color: #373A3C;
 }
 
-
-
 ul{
     list-style: none;
 }
+
+.newsletter{
+    background-color: #DC3545;
+}
+
+.newsletter div{
+    padding: 6rem 0 !important;
+    color: #fff;
+}
+
+footer{
+    background-color: #373A3C;
+    color: #fff;
+}
+
+/* a los botones de arriba, antes de la receta les puedo dar un gap entre columnas */
 
 /* .recetaPrincipal{
     color: #373A3C;
