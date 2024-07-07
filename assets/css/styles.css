@@ -45,15 +45,31 @@ footer{
 @media(max-width: 576px){
     .vistaEscritorio{
         width: 18rem;
-        /* display: inline-block; */
+        /* width: 50%; */
+        /* display: inline-block;
+        width: 100%;
+         */
     }
 }
 
 @media(min-width: 577px){
     .vistaEscritorio{
-        width: 22rem;
-        /* display: inline-block; */
+        width: 22rem;    
     }
+
+    /* .card-title1{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .card-title2{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    .firstBtnDiv div .btn{
+        font-size: smaller;
+    } */
 }
 
 
