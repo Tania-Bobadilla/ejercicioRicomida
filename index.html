@@ -23,13 +23,13 @@
   <!-- Navegador -->
   <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
 
-    <div class="container-fluid">
+    <div class="container">
       <a class="ricomidaFont navbar-brand" href="#">Ricomida</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
           </li>
@@ -51,19 +51,28 @@
   <!-- Tarjeta de receta principal (pizza) -->
   
   <section class="recetaPrincipal">
-     <div>
-      <div>
-        <div class="card mx-auto mt-5 border-start-0 border-end-0" style="width: 18rem;">
+    <div class="row g-0">
 
+      <div class="col-sm-6">
+        <div class="mx-auto mt-3 me-sm-3 border-start-0 border-end-0 vistaEscritorio">
           <img src="./assets/img/principal.jpg" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h3 class="card-title">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h3>
-          </div>
-      
         </div>
+      </div>  
 
+      <div class="col-sm-6">
+        <div class="text-center mx-auto ms-sm-3 mt-3 mt-sm-5 border-start-0 border-end-0 vistaEscritorio">
+          <h3 class="card-title">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h3>
+          <div class="my-4">
+            <h5 class="text-center mb-4">110 MIN / 6 A 8 PORCIONES</h5>
+            <div class="mx-auto" style="width: 18rem;">
+              <button class="btn btn-outline-secondary">Enviar por correo</button>
+              <button class="btn btn-outline-secondary">Añadir a favoritos</button>
+            </div>
+          </div>
+        </div>
       </div>
-     </div>
+
+    </div>
   </section>
 
   <!-- Seccion de receta principal -->

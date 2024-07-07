@@ -41,5 +41,20 @@ footer{
     color: #373A3C;
 } */
 
+/* media query vista escritorio */
+@media(max-width: 576px){
+    .vistaEscritorio{
+        width: 18rem;
+        /* display: inline-block; */
+    }
+}
+
+@media(min-width: 577px){
+    .vistaEscritorio{
+        width: 22rem;
+        /* display: inline-block; */
+    }
+}
+
 
 
